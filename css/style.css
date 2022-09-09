@@ -1,0 +1,45 @@
+.main{
+    font-family: 'hack';
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin-top: 0%;
+}
+.left_container{
+    border-right: 2px solid grey;
+}
+.side_bar{
+    margin-top: 0%;
+}
+.left_links{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.left_content{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    /* border: 1px solid grey; */
+    border-radius: 2vh;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.left_content:hover{
+    /* background-color: grey; */
+}
+.left_block{
+    display: inline-flex;
+
+}
+.center{
+    padding-left: 10px;
+    /* background-color: #cfccccda; */
+}
+.right_container{
+    position: fixed;
+    
+}
+.left_block:hover{
+    background-color: rgb(241, 236, 236);
+    border-radius: 2vh;
+}
